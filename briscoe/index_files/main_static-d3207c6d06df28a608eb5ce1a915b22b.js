@@ -14673,9 +14673,7 @@ warn:function() {}
                         _gaq.push([ "b._setAccount" ], $B.siteMeta("google_analytics_tracker"))), $B.siteMeta("custom_domain") ? _gaq.push([ "b._setDomainName", $B.siteMeta("custom_domain") ]) :void 0;
             }, t.prototype.checkIframe = function() {
                 var e, t;
-                return window.top.location !== window.location && document.referrer && (t = $B.meta("strikingly-host-suffix"), 
-                        t && (e = $.url(document.referrer).attr("host"), !e.match("" + t + "$"))) ? (alert("Framing is not allowed without connecting your custom domain. Redirecting to Strikingly.com. Please go to the editor and connect your domain to this site."), 
-                        window.top.location = window.location) :void 0;
+                return void 0;
             }, t;
         }();
     }.call(this), function() {
