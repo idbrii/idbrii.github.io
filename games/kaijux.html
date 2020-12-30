@@ -1,34 +1,38 @@
 <html>
     <head>
-		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
     </head>
+
+    <script src="game.js"></script>
+    <button type="button" onclick="fullscreen()">Fullscreen</button>
+
     <iframe
         name="game"
         src="https://i.simmer.io/@idbrii/~7670e30f-9063-9231-9b7b-8d187e675c3b"
         style="width:1920px;height:1080px;border:0"
         ></iframe>
 
-    <script src="game.js"></script>
-    <button type="button" onclick="fullscreen()">Fullscreen</button>
+    <div id="wrapper">
+        <header id="header">
+            <h1>Kaiju X: Live Long &amp; Multiply</h1> 
+        </header>
 
-    <h1>Kaiju X: Live Long & Multiply</h1> 
+        <section id="main">
+            <p>
+                Click the monsters that multiply together to produce the red buttons. Save the city and multiply to decimate the invading creatures.
+            </p>
 
-    <p>
-        Click the monsters that multiply together to produce the red buttons. Save the city and multiply to decimate the invading creatures.
-    </p>
+            <p>
+                Now includes a mode where you add instead of multiply!
+            </p>
+        </section>
 
-    <p>
-        Now includes a mode where you add instead of multiply!
-    </p>
+    </div>
 
-    <p>
-        Hosted on <a href="https://simmer.io/@idbrii/~7670e30f-9063-9231-9b7b-8d187e675c3b">simmer.io</a>.
-    </p>
-
-
-    <h2>Licenses</h2>
-    <h3>Game features audio from freesound.org</h3>
-    <pre>
+    <div id="wrapper">
+        <h2>Licenses</h2>
+        <h3>Game features audio from freesound.org</h3>
+        <pre>
 
 melancholic interpretation in G#.mp3
 https://freesound.org/people/Connum/sounds/12691/
@@ -79,5 +83,14 @@ https://freesound.org/people/Sheyvan/sounds/519008/
 
 Licensed under the Creative Commons 0 License.
 
-    </pre>
+        </pre>
+
+
+        <footer id="footer">
+            <p>
+                Hosted on <a href="https://simmer.io/@idbrii/~7670e30f-9063-9231-9b7b-8d187e675c3b">simmer.io</a>.
+            </p>
+
+        </footer>
+    </div>
 </html>
