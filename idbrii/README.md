@@ -1,5 +1,11 @@
-Story by HTML5 UP
+A website about myself.
+
+Serves as an index for other projects.
+
+# Design
+## Story by HTML5 UP
 html5up.net | @ajlkn
+
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
