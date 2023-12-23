@@ -1,0 +1,9 @@
+# Don't get scraped for OpenAI's AI training.
+# https://platform.openai.com/docs/gptbot
+User-agent: GPTBot
+Disallow: /
+
+# Don't get scraped for Google's AI training.
+# https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
+User-agent: Google-Extended
+Disallow: /
